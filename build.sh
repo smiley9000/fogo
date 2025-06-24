@@ -7,8 +7,8 @@ repo init -u https://github.com/RisingOS-Revived/android -b qpr2 --git-lfs
 /opt/crave/resync.sh
 
 sudo apt update
-sudo apt install python3-pip
-sudo apt install protobuf-compiler
+sudo apt install -y python3-pip
+sudo apt install -y protobuf-compiler
 
 pip3 install protobuf
 pip install protobuf==3.20.*
